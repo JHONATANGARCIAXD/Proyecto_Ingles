@@ -1,12 +1,17 @@
+body{
+    background-color: black;
+}
+
 .cont_prin {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: black;
+    margin-top: 70px;
+    z-index: 1;
 }
 
-.contenido {
+.contenido_cuerda {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -82,7 +87,7 @@ i {
     transition: 2s ease-in-out;
 }
 
-h1 {
+.colum1 h1 {
     text-align: center;
     width: 50%;
     background: rgba(0, 0, 0, 0.326);

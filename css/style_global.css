@@ -7,6 +7,9 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    z-index: 2;
 }
 
 .con_nav {
@@ -26,14 +29,23 @@ nav {
     transition: color 0.3s ease;
 }
 
-.texto_nav p {
+.texto_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombre_nav{
+    margin: 0;
+    align-self: center;
+    justify-content: center;
     font-size: 24px;
     font-weight: bold;
     color: #F5F5F5;
 }
 
 .links a:hover {
-    color: #440913;
+    color: #FFB400;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 
@@ -49,14 +61,22 @@ footer {
     background: linear-gradient(180deg, #060A16 0%, #030711 100%);
     padding: 20px;
     text-align: center;
-    margin-top: 50p
 }
 
-.contenido {
+.contenido_footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 80%;
+}
+
+.contenido_footer h1{
+    color: white;
+    font-size:40px;
+}
+
+.redes {
+    margin: 20px 0;
 }
 
 .redes a {
@@ -70,7 +90,29 @@ footer {
     color: #FFB400;
 }
 
+.contacto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contacto a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contacto p {
+    color: white;
+    margin: 0 5px;
+}
+
 .copy {
+    color: white;
     font-size: 20px;
 }
 
@@ -83,24 +125,28 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .links {
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
+        justify-items: center;
+    }
+
+    .texto_nav {
+        text-align: center;
     }
 
     /* RESPONSIVE FOOTER */
-    .contenido {
+    .contenido_footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .copy{
+    .copy {
         width: 100%;
     }
 

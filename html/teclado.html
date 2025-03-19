@@ -4,60 +4,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teclado</title>
-    <link rel="stylesheet" href="/css/style_teclado.css">
+    <title>Instrumentos Musicales</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/css/style_cuerda.css">
+    <link rel="stylesheet" href="/css/style_global.css">
 </head>
 
 <body>
-    <h1>keyboard</h1>
-    <div class="container">
-        <div class="instru">
-            <h2>Piano digital</h2>
-            <img src="/img/piano.jpg" alt="piano">
-            <p>The digital piano emerged in the **20th century (1980)** as an electronic alternative to the acoustic
-                piano. It is a keyboard instrument that imitates the sound and feel of the traditional piano, but with
-                digital technology. It is used in various musical genres due to its versatility,
-                portability and additional functions such as custom sounds and connection to devices.</p>
+    <nav>
+        <div class="con_nav">
+            <div class="texto_nav">
+                <p class="nombre_nav">DEX</p>
+            </div>
+            <div class="links">
+                <a class="link1" href="index.html">Start</a>
+                <a class="link2" href="index.html#seccion2">Instrument</a>
+            </div>
         </div>
-        <div class="instru">
-            <h2>organ</h2>
-            <img src="/img/organo.jpg" alt="organ">
-            <p>The organ has its origins in **Ancient Greece (3rd century BC)** with the **hydraulis**,
-                and its modern version was developed in the **14th century (1300)** in Europe. It is a keyboard
-                instrument that produces sound using tubes or, in the case of the digital organ, using electronic
-                technology. It is used in religious, classical and concert music, standing out for its majestic sound
-                and its ability to generate multiple tones simultaneously.</p>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-touch="true" data-bs-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cont_prin">
+                    <div class="contenido_cuerda">
+                        <div class="colum1">
+                            <h1>NOMBRE INSTUMENTO</h1>
+                            <div class="imagen">
+                                <img height="450px" src="/img/teclado/clavecin.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="colum2">
+                            <div class="info">
+                                <div class="texto">
+                                    <p>
+                                        TEXTO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="cont_prin">
+                    <div class="contenido_cuerda">
+                        <div class="colum1">
+                            <h1>NOMBRE INSTUMENTO</h1>
+                            <div class="imagen">
+                                <img src="/img/teclado/melodica.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="colum2">
+                            <div class="info">
+                                <div class="texto">
+                                    <p>
+                                        TEXTO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="cont_prin">
+                    <div class="contenido_cuerda">
+                        <div class="colum1">
+                            <h1>NOMBRE INSTUMENTO</h1>
+                            <div class="imagen">
+                                <img height="450px" src="/img/teclado/piano.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="colum2">
+                            <div class="info">
+                                <div class="texto">
+                                    <p>
+                                        TEXTO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="cont_prin">
+                    <div class="contenido_cuerda">
+                        <div class="colum1">
+                            <h1>NOMBRE INSTUMENTO</h1>
+                            <div class="imagen">
+                                <img src="/img/teclado/celesta.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="colum2">
+                            <div class="info">
+                                <div class="texto">
+                                    <p>
+                                        TEXTO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="cont_prin">
+                    <div class="contenido_cuerda">
+                        <div class="colum1">
+                            <h1>NOMBRE INSTUMENTO</h1>
+                            <div class="imagen">
+                                <img src="/img/teclado/organo.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="colum2">
+                            <div class="info">
+                                <div class="texto">
+                                    <p>
+                                        TEXTO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <i class="las la-angle-left"></i>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <i class="las la-angle-right"></i>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
 
-        <div class="instru">
-            <h2>accordion</h2>
-            <img src="/img/acordeon.jpg" alt="accordion">
-            <p>The accordion was invented in the **19th century (1829)** in **Austria** by **Cyrill Demian**. It is a
-                wind and keyboard instrument that produces sound by compressing and expanding its bellows while keys or
-                buttons are pressed. It is used in folklore, tango and northern music, standing out for its vibrant
-                sound and versatility.</p>
-        </div>
 
-        <div class="instru">
-            <h2>clavecin</h2>
-            <img src="/img/clavecin.jpg" alt="clavecin">
-            <p>El clavecín surgió en el **siglo XV (1400)** en Europa y fue popular hasta el **siglo XVIII (1700)**. Es
-                un instrumento de teclado en el que las cuerdas se pulsan con plectros en lugar de martillos, como en el
-                piano. Se usa principalmente en música barroca y destaca por su sonido brillante y delicado.</p>
-        </div>
-
-
-        <div class="instru">
-            <h2>melodic</h2>
-            <img src="/img/melodica.jpg" alt="melodic">
-            <p>The melodica was invented in the **20th century (1950)** by the **Hohner** company in Germany. It is a
-                wind and keyboard instrument that produces sound by blowing through a mouthpiece while the keys are
-                pressed. It is used in educational music, jazz and pop, standing out for its portability and light
-                sound.</p>
-        </div>
-
+        <footer>
+            <div class="contenido_footer">
+                <h1>DEX</h1>
+                <div class="copy">
+                    <p>Copyright © 2025. Todos los derechos reservados Dex</p>
+                </div>
+                <div class="link_footer">
+                    <div class="contacto">
+                        <a class="las la-envelope">
+                            <p>info@instrumentosmusicales.com</p>
+                        </a>
+                        <a class="las la-phone">
+                            <p>+57 123 456 7890</p>
+                        </a>
+                    </div>
+                    <div class="redes">
+                        <a href="" class="lab la-instagram"></a>
+                        <a href="" class="lab la-facebook"></a>
+                        <a href="" class="lab la-twitter"></a>
+                        <a href="" class="lab la-youtube"></a>
+                    </div>
+                </div>
+            </div>
     </div>
-
+    </footer>
 </body>
 
 </html>

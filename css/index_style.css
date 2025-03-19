@@ -15,12 +15,10 @@ html {
 
 .seccion1 {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background: radial-gradient(circle, #2C3A5A 30%, #1F2A47 100%);
-    z-index: 1;
 }
 
 .cont1 {
@@ -28,15 +26,32 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    width: 70%;
+    width: 100%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.116);
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.116);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
 
 .titulo_sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
     font-size: 25px;
+    width: 70%;
     margin-bottom: 40px;
-    text-shadow: 5px 5px 25px rgba(175, 174, 174, 0.409);
+
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 75%;
+    border-radius: 10px;
 }
 
 .seccion1 a {

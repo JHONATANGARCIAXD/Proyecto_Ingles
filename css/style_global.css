@@ -143,12 +143,14 @@ a {
         justify-content: center;
         align-items: center;
         width: 100%;
+        gap: 20px;
     }
 
     .links {
-        display: flex;
+        display: grid;
+        grid-template-columns:1fr;
+        justify-items: center;
         align-items: center;
-        justify-content: space-evenly;
         width: 100%;
     }
 

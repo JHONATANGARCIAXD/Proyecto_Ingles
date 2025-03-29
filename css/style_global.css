@@ -134,7 +134,7 @@ a {
 }
 
 
-@media (max-width:500px) {
+@media (max-width:1024px) {
 
     /* RESPONSIVE NAV */
     .con_nav {
